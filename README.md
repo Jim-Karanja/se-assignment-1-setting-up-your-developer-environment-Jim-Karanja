@@ -13,25 +13,62 @@ This assignment aims to familiarize you with the tools and configurations necess
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
+   windows 10 pro  already installed
+   C:\Users\thanj>systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19045 N/A Build 19045
+
+
+
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+
+   
+   code editor installed Microsoft visual studio
+   C:\Users\thanj>code -v
+1.90.0
+89de5a8d4d6205e5b11647eb6a74844ca23d2573
+x64
+
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
+Git successfully installed
+C:\Users\thanj>git -v
+git version 2.45.2.windows.1
+
 4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute 
+  your code.
+
+  python installed 
+  C:\Users\thanj>python --version
+Python 3.11.9
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
 
+   pip installed
+   C:\Users\thanj>pip --version
+pip 24.0 from C:\Users\thanj\AppData\Local\Programs\Python\Python311\Lib\site-packages\pip (python 3.11)
+
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+
+   mysql server and workbench installed successfully
+   
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
+I have installed  oracle virtualbox to run virtual machine
+wsl to run linux subystems fo windows
+
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+
+I have succesfully installed various extensions in visual studio code to enhance code readability eg prettier
+python intellisense etc
 
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
