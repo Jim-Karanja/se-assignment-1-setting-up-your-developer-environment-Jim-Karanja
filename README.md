@@ -55,14 +55,15 @@ pip 24.0 from C:\Users\thanj\AppData\Local\Programs\Python\Python311\Lib\site-pa
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
 
-   mysql server and workbench installed successfully
+   mysql server and workbench installed successfully 
+   
    
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
 I have installed  oracle virtualbox to run virtual machine
-wsl to run linux subystems fo windows
+wsl to run linux subystems for windows operating system
 
 8. Explore Extensions and Plugins:
    Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
