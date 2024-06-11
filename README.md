@@ -78,6 +78,8 @@ python intellisense etc
 - A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
 - A reflection on the challenges faced during setup and strategies employed to overcome them.
 
+problem encounterd only when installing flutter SDK I consulted members of the plp may cohort I managed to know I had added the environmental variables wrongly
+
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
 
